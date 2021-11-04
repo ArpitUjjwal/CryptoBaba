@@ -78,7 +78,7 @@ const CoinPage = () => {
 
   const classes = useStyles();
 
-  if (!coin) return <LinearProgress style={{ backgroundColor: "gold" }} />;
+  if (!coin) return <LinearProgress style={{ backgroundColor: "#00e6e6" }} />;
 
   return (
     <div className={classes.container}>
@@ -89,7 +89,7 @@ const CoinPage = () => {
           height="200"
           style={{ marginBottom: 20 }}
         />
-        <Typography variant="h3" className={classes.heading}>
+        <Typography variant="h3" className={classes.heading} style={{textShadow: "0 0 8px #00e6e6",}}>
           {coin?.name}
         </Typography>
         <Typography variant="subtitle1" className={classes.description}>

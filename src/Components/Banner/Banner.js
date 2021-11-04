@@ -4,7 +4,7 @@ import React from 'react'
 
 const useStyles=makeStyles(() => ({
     banner: {
-        backgroundImage: "url(./banner2.jpeg)",
+        backgroundImage: "url(./image.jpg)",
     },
     bannerContent: {
         height: 400,
@@ -41,6 +41,7 @@ const Banner = () => {
               fontWeight: "bold",
               marginBottom: 15,
               fontFamily: "Montserrat",
+              textShadow: "0 0 5px #00e6e6",
             }}
           >
             CryptoBaba
@@ -48,9 +49,10 @@ const Banner = () => {
           <Typography
             variant="subtitle2"
             style={{
-              color: "darkgrey",
+              color: "#fff",
               textTransform: "capitalize",
               fontFamily: "Montserrat",
+              textShadow: "0 0 4px #000",
             }}
           >
             Get all the Info regarding your favorite Crypto Currency

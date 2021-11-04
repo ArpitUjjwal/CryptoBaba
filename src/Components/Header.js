@@ -7,7 +7,7 @@ import { CryptoState } from '../CryptoContext';
 const useStyles = makeStyles(() => ({
     title: {
         flex: 1,
-        color: "gold",
+        color: "#00e6e6",
         fontFamily: "Montserrat",
         fontWeight: "bold", 
         cursor: "pointer",
@@ -38,7 +38,7 @@ const Header = () => {
                         <Typography onClick={() => history.push("/")} className={classes.title} variant='h6'>
                             CryptoBaba
                         </Typography>
-                        <Select variant="outlined" style={{width: 100, height:40, marginRight: 15}} value={currency} onChange={(e) => setCurrency(e.target.value)}>
+                        <Select variant="outlined" style={{width: 100, height:40, marginRight: 15, color: "#00e6e6",}} value={currency} onChange={(e) => setCurrency(e.target.value)}>
                             <MenuItem value={"USD"}>{symbol} USD</MenuItem>
                             <MenuItem value={"INR"}>{symbol} INR</MenuItem>
                         </Select>

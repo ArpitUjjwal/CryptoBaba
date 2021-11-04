@@ -20,6 +20,7 @@ const useStyles = makeStyles((theme) => ({
         cursor: "pointer",
         textTransform: "uppercase",
         color: "white",
+        textShadow: "0 0 5px #000",
     },
 }));
 
